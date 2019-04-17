@@ -1,0 +1,6 @@
+1.users
+2.group
+3.role
+4.policy
+
+consider role as capabilities, a user can have multiple capabilities, such as accessing database or create a bucket in S3

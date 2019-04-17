@@ -1,0 +1,9 @@
+pipeline:
+    1. ssh connection
+    2. promote self to root user by sudo su
+    3. in order to connect with aws services or resources, we need to run "aws configure" to add credentials with key id and secret key
+    4. try to create a s3 bucket by "aws s3 mb s3://bucketnameinlowercase"
+
+how to access s3 or other services from ec2 without providing private id and key?:
+    1. we need to create a role that has the specific permission we want and attach it to our ec2 instance
+    2. we also need to delete our previously input key in our Linux hiding fold "~/.aws"

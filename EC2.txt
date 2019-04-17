@@ -1,5 +1,19 @@
 EC2 Options:
     1. On Demand
     2. Reserved
-    3. Spot
+    3. Spot(cheap, need more investigation, risky to lost data by auto termination)
     4. Dedicated Hosts
+
+Pipe Line:
+    1. create key pair and download private key
+    2. On Mac system, just start up the terminal
+    3. cd to the folder which hold the private key
+    4. type "ssh ec2-user@ipaddress -i privatekey.pem", and it should be connected with ec2 instance
+    5. type "yum update -y" to update system
+    6. [option]to install apache type "yum install httpd -y"
+    7. [option]type "service httpd start" to start apache server
+    8. [option]in order to automatically start server each time the instance started, type "chkconfig httpd on"
+    9. cd to the apache host direction type "cd /var/www/html"
+    10. [option]type "nano index.html" and edit some html page on it, should be able to access the site by ip address in browser
+    
+

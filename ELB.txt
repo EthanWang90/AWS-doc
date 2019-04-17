@@ -1,0 +1,8 @@
+ELB types:
+    1. Aplication Load Balancer
+    2. Netword Load Balancer
+    3. Classic Load Balancer
+
+X-Forwarded-For Header to get the ip address come from outside
+
+504 means the gateway has timed out.

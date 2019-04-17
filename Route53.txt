@@ -1,0 +1,2 @@
+hosted zone likes DNS server, which provides 4 top root server in the world, one default NS record set and one default SOA record set point out which is the highest server
+records set means how to parse the domain request, create an A record set to parse it into ipv4 address

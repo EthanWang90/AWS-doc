@@ -1,0 +1,7 @@
+Pipeline:
+    1. Create Lambda function
+    2. assign the created function with trigger for example an API gateway
+    3. Configure the gateway
+    4. Go to API gateway console
+    5. Create method you want, delete method you don't want
+    6. Deploy the Api, then it can be accessed via web

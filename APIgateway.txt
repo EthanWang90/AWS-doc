@@ -1,0 +1,6 @@
+APIgateway can Track and control usage by API key
+APIgateway can throttle requests to prevent attacks
+
+apigateway caching can store some high frequent response according to some commonly api call, make response faster.
+
+need to be deployed before use

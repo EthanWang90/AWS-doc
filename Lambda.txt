@@ -5,3 +5,6 @@ Pipeline:
     4. Go to API gateway console
     5. Create method you want, delete method you don't want
     6. Deploy the Api, then it can be accessed via web
+
+Version control:
+    alias: used for decouple version changing with application code, so each time the function version is changed, there is no need to change the code in application or api gateway or s3 etc, we only need to re-map the alias to new version

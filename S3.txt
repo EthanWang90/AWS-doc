@@ -1,0 +1,14 @@
+the object in s3 is immidiately readable when you first create it(read consistency)
+but update object will cost time for aws to propagate the data, which is not immidiately readable
+
+By default, newly create buckets are private. Until it is set to public
+
+bucket policies: for bucket level
+access control lists: for object level
+
+we can create s3 bucket access logs to record the access activities, and we can also store the logs to another bucket.
+
+with server side bucket encryption policy, any object willing to "put" into s3 bucket must have a specific header:
+    x-amz-server-side-encryption:AES256; or 
+    x-amz-server-side-encryption:ams:kms
+or the put request will be denied.

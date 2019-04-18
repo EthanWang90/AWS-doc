@@ -1,0 +1,7 @@
+when facing disaster recovery, we use multi-az;
+while for performance, we use Replicas;
+
+
+Elasticache is a good choice if your database is particularly read-heavy and not prone to frequent changing
+Redis: for multi-az access, for creating leader board;
+otherwise use memcached, for scale out, object caching is your primary goal, keep things as simple as possible;

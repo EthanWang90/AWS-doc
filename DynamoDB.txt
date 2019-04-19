@@ -1,0 +1,16 @@
+flexible nosql, means you don't need to define the schema upfront
+it is serverless
+it can be configured to auto scale
+integrate really well with lambda
+
+Consist of:
+    Tables
+    Items(row)
+    Attributes(column)
+    support key-value and document data structures
+
+Primary key: partition key or composite key
+
+2 consistency models: 
+    strongly consistent(cost, but immediate)
+    eventually consistent(free, but may one second late)

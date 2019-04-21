@@ -14,3 +14,9 @@ Primary key: partition key or composite key
 2 consistency models: 
     strongly consistent(cost, but immediate)
     eventually consistent(free, but may one second late)
+
+2 index:
+    local secondary index;
+    global secondary index;
+
+Scan Vs Query API Call

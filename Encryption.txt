@@ -1,0 +1,2 @@
+Envelope key is the key to encrypt data
+Master key is the key to encrypt Envelope key.

@@ -20,3 +20,10 @@ Primary key: partition key or composite key
     global secondary index;
 
 Scan Vs Query API Call
+
+Provisioned throughput calculation: why do we need round-up to nearest whole number for each read or write???
+
+DynamoDB Accellorator(DAX) only for eventually consistent read performance improvment purpose.
+no suitable for strongly Consistent reads; no suitable for write-intense
+
+DAX only support for DynamoDB and only support for write through strategy; not support for lazy loading.

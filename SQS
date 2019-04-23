@@ -1,0 +1,10 @@
+sqs is a pull based system
+sqs is used for decouple components in aws
+queue types:
+    standard queues(default)
+    FIFO Queues (First-in-first-out)
+
+sqs visibility timeout:
+    after a message is picked by a component, there is timeout(by default is 30s, but modification is needed if the processing takes more than 30s)
+    start, but if the message is not processed within that time, than the message will become 
+    visibale again and waiting for another component to process it.

@@ -1,0 +1,3 @@
+it is push-based delivery machnism, different from sqs
+
+use sns topics to group a pile of users, so when new message has been published to a topic, sns delivers appropriately formatted copies of your message to each subscriber.

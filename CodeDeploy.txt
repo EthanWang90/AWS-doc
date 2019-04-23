@@ -1,0 +1,3 @@
+Two deployment approaches:
+    1. In-Place
+    2. Blue/Green

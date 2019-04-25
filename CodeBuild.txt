@@ -1,0 +1,1 @@
+buildspec.yml is the file store commands during building process.

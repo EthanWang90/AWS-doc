@@ -1,3 +1,21 @@
 Two deployment approaches:
-    1. In-Place
+    1. In-Place(only support ec2, not support lambda)
     2. Blue/Green
+
+Deployment group: A set of ec2 instances or lambda functions to which a new revision of the software is to be deployed.
+AppSpec File: Defines the deployment actions you want AWS CodeDeploy to execute
+
+Lab Pipeline:
+    1. Create an Ec2 which has the access to our s3 bucket where the code is stored.
+        1.1 attche access s3 role to ec2
+        1.2 give ec2 instance a tag
+        1.3 login ec2 via ssh
+    2. Install code deploy agent on to our EC2 instance.
+    3. Use CodeDeploy to deploy a simple web app to our ec2.
+        3.1 create role for CodeDeploy to make api calls and give permission to install applications on your ec2 instance.
+        3.2 turn local machine to developer machine which means add aws user to local machine, give the user s3 access and codedeploy access.
+        3.3 create appspec.yml file to configure; create script folder to store scripts which will be executed during deployment
+        3.4 create application.zip in project folder using aws deploy command
+        3.5 push application to s3
+        3.6 configure deployment group inside codedeploy console
+        3.7 create deployment

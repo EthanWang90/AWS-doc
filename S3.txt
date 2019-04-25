@@ -12,3 +12,5 @@ with server side bucket encryption policy, any object willing to "put" into s3 b
     x-amz-server-side-encryption:AES256; or 
     x-amz-server-side-encryption:ams:kms
 or the put request will be denied.
+
+object is between 0~5TB, but a single Put upload could only be 5GB at most

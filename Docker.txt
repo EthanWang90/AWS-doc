@@ -1,0 +1,10 @@
+By default, the name "Dockerfile" is parsed as a docker file?
+ECS is the place to run docker image.
+$() sign included cli is used to directly execute the output from the first cli input
+
+Task is defined and used to launch docker image in ECR to create interact dockers in ECS.
+
+Pipeline:
+    1. docker build
+    2. docker add tag name
+    3. push to ecs container

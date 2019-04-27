@@ -6,3 +6,5 @@ ELB types:
 X-Forwarded-For Header to get the ip address come from outside
 
 504 means the gateway has timed out.
+
+provide ssl termination

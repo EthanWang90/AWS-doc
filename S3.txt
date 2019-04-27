@@ -14,3 +14,6 @@ with server side bucket encryption policy, any object willing to "put" into s3 b
 or the put request will be denied.
 
 object is between 0~5TB, but a single Put upload could only be 5GB at most
+s3 use key name to determine which partition the file will be stored in
+
+use s3 signed urls to give resource limit access time.

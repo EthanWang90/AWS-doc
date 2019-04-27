@@ -4,3 +4,7 @@ APIgateway can throttle requests to prevent attacks
 apigateway caching can store some high frequent response according to some commonly api call, make response faster.
 
 need to be deployed before use
+
+error 429 means too many requests
+
+用api key来限制某个特定访问ip的恶意攻击

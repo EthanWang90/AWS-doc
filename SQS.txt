@@ -1,5 +1,6 @@
 sqs is a pull based system
 sqs is used for decouple components in aws
+256kb max each message
 queue types:
     standard queues(default)
     FIFO Queues (First-in-first-out)

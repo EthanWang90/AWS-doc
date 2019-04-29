@@ -1,3 +1,7 @@
 similar with docker, but not exactly same meaning
 consider it as a template, 允许将你app里的所有用到的aws资源封装成一个模版，然后你可以方便的通过模版拷贝出一份完全一模一样的app进行其它用途例如测试，或者对模版进行修改以达到app功能的变更目的。
 creating cloudformation is totally free, but the aws resources that the templates create will still cost.
+
+what is intrisic function:
+    like !importValue
+    like !Ref

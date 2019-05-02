@@ -4,6 +4,7 @@ Two deployment approaches:
 
 Deployment group: A set of ec2 instances or lambda functions to which a new revision of the software is to be deployed.
 AppSpec File: Defines the deployment actions you want AWS CodeDeploy to execute
+codedeploy can deploy to lambda
 
 Lab Pipeline:
     1. Create an Ec2 which has the access to our s3 bucket where the code is stored.

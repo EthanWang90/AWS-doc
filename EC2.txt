@@ -15,5 +15,5 @@ Pipe Line:
     8. [option]in order to automatically start server each time the instance started, type "chkconfig httpd on"
     9. cd to the apache host direction type "cd /var/www/html"
     10. [option]type "nano index.html" and edit some html page on it, should be able to access the site by ip address in browser
-    
+    11. In the market, there are some AMI with built in functionalities you may need like Wordpress, LAMP, LNMP, etc.
 
